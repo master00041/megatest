@@ -43,7 +43,7 @@ local function list_all_plugins(only_enabled)
       text = text..nsum..'.'..status..' '..v..' \n'
     end
   end
-  local text = text..'\n\n'..nsum..' plugins installed\n\n'..nact..' plugins enabled\n\n'..nsum-nact..' plugins disabled'..tmp
+  local text = '#Bot Reloaded By: |'..msg.from.username..'| \n\n #All Plugins Are #Reloaded \n#All Changes Have been Succesfully #Installed \n#Mega-Maximus Is Ready!!'
   return text
 end
 
