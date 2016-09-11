@@ -302,7 +302,7 @@ end
 	return msg
 end
  function run(msg, matches)
-      if msg.text:match("^[!/#][Aa][Dd][Vv][Aa][Nn]$") then
+      if msg.text:match("^[!/#][Mm]aximus$") then
     	txt = _config.about_text
     	return txt
       end
@@ -325,7 +325,7 @@ return {
         "@[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
         "[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/",
         "?[Ss][Tt][Aa][Rr][Tt]=",
-        "^[!/#][Aa][Dd][Vv][Aa][Nn]$",
+        "^[!/#][[Mm]aximus]$",
         "^[!/#][Rr][Aa][Tt][Ee]$",
 	},
 	pre_process = pre_process,
